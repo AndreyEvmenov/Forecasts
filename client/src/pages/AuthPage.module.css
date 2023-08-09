@@ -1,0 +1,61 @@
+.card {
+  width: 500px;
+  height: 250px;
+  margin: auto;
+  margin-top: 50px;
+  border: solid #1e88e5 10px;
+  border-radius: 10px;
+}
+
+.cardtitle {
+  font-size: 2rem;
+  color: white;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.card input {
+  width: 300px;
+  height: 29px;
+  margin: 10px 10px 10px 20px;
+  padding-left: 5px;
+  border: solid lightgray 1px;
+  border-radius: 3px;
+  font-size: 1.1rem;
+  text-align: left;
+}
+
+.card button {
+  width: 180px;
+  height: 37px;
+  margin: 10px 5px 5px 20px;
+  font-size: 1.3rem;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #1b598f;
+  box-shadow: 0.2rem 0.2rem 4px 0 grey;
+}
+
+@media (max-width: 993px) {
+  .card {
+    width: 800px;
+    height: 400px;
+  }
+  .cardtitle {
+    font-size: 3rem;
+  }
+  .card input {
+    width: 600px;
+    height: 80px;
+    font-size: 2.5rem;
+  }
+
+  .card button {
+    width: 350px;
+    height: 90px;
+    margin-top: 20px;
+
+    font-size: 2.5rem;
+  }
+}

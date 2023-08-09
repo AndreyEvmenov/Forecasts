@@ -1,0 +1,55 @@
+h2 {
+  padding-top: 2rem;
+}
+
+.container {
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.8em;
+  font-weight: 500;
+}
+
+.tour {
+  display: flex;
+  color: #fff;
+  background-color: #315d85;
+  height: 3rem;
+  line-height: 3rem;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 20px;
+  box-shadow: 0.2rem 0.2rem 4px 0 grey;
+  justify-content: center;
+}
+
+.tour a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.tour:hover {
+  transition: 0.3s;
+  background-color: #0b5aa0;
+}
+
+@media (max-width: 993px) {
+  h2 {
+    font-size: 4em;
+  }
+
+  .container {
+    width: 100%;
+
+    font-size: 6em;
+  }
+
+  .tour {
+    width: 22%;
+    height: 8rem;
+    line-height: 8rem;
+  }
+}
